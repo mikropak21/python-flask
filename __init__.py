@@ -17,9 +17,12 @@ mysql = MySQL(app)
 app.config.from_pyfile('app.cfg')
 
 @app.route('/')
-@app.route('/home')
-def dashboard():
-    return "Hello Sir"    
+def index():
+    return render_template ('index.html')
+
+@app.route('/home/<string:name>')
+def dashboard(name):
+    return "Hello sir %s"%(name)
 
 @app.route('/api/get-all', methods=["GET"])
 def getAll():
