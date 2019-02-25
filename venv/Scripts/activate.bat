@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=D:\workspace\PYTHON\python-flask\venv"
+set "VIRTUAL_ENV=D:\Marsel\PKL\Git\bareng\NEWFOL~1\PYTHON~1\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'D:\workspace\PYTHON\python-flask\venv'; else echo '/D/workspace/PYTHON/python-flask/venv'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'D:\Marsel\PKL\Git\bareng\NEWFOL~1\PYTHON~1\venv'; else echo '/D/Marsel/PKL/Git/bareng/NEWFOL~1/PYTHON~1/venv'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
